@@ -45,19 +45,22 @@ div.content > div > p::first-letter {
     text-decoration: none;
 }
 
+/*Go to Top - START*/
 div.content > div > a.gotop:active > div,
 div.content > div > a.gotop:hover > div {
     color: #000;
     text-decoration: underline;
 }
-
-i.fa-chevron-up {
+a.gotop i.fa-chevron-up {
     font-size: .75rem;
     padding: 0.75em;
     margin: 0 0 0 .5em;
-    background-color: #ffc107;
+    background-color: #dedede;
+    outline: 1px solid #ccc;;
     border-radius: 5px;
 }
+a.gotop:hover i.fa-chevron-up {background-color: #ffc107;}
+/*Go to Top - END*/
 
 a.nav-link:hover, a.nav-link:active {
     background-color: rgba(255, 255, 255, 0.75); 
