@@ -3,8 +3,6 @@
 html {background-color: #fff; color: #000; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 html, body {margin: 0; padding: 0; height: 100vh;}
 
-h1 {text-align:center; padding:1em 0;}
-
 div.content {padding:1em;}
 
 div.content > div {
@@ -23,12 +21,16 @@ div.content > div > div.label {
     font-size: 1.5em;
     text-transform: capitalize;
 }
-
+ 
+/* Text - START*/
+h1 {
+    text-align:center; 
+    padding:1em 0;
+}
 div.content > div > p {
     margin: 0 2em 1em;
     line-height: 1.5;
 }
-
 div.content > div > p::first-letter {
     font-size: 1.5rem;
     padding: 1px 3px 5px;
@@ -36,16 +38,15 @@ div.content > div > p::first-letter {
     margin: 0;
     background-color: #ffc107;
  }
+/* Text - END*/
 
+ /*Go to Top - START*/
  div.content > div > a.gotop > div {
-    width:50%; 
     float:right; 
-    padding: .5em 1em;
+    padding: .5em;
     text-align: right;
     text-decoration: none;
 }
-
-/*Go to Top - START*/
 div.content > div > a.gotop:active > div,
 div.content > div > a.gotop:hover > div {
     color: #000;
