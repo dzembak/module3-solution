@@ -42,13 +42,21 @@ div.content > div > p::first-letter {
     float:right; 
     padding: .5em 1em;
     text-align: right;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 div.content > div > a.gotop:active > div,
 div.content > div > a.gotop:hover > div {
     color: #000;
-    text-decoration: none;
+    text-decoration: underline;
+}
+
+i.fa-chevron-up {
+    font-size: .75rem;
+    padding: 0.75em;
+    margin: 0 0 0 .5em;
+    background-color: #ffc107;
+    border-radius: 5px;
 }
 
 a.nav-link:hover, a.nav-link:active {
